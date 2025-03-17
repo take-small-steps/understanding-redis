@@ -5,9 +5,11 @@
 guava = "33.2.1-jre"
 junit-jupiter = "5.10.3"
 redisson = "3.45.0"  # 최신 버전 확인 후 변경 가능
+lettuce = "6.5.5.RELEASE"  # 최신 버전 확인 후 변경 가능
 
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
 redisson = { module = "org.redisson:redisson", version.ref = "redisson" }
+lettuce = { module = "io.lettuce:lettuce-core", version.ref = "lettuce" }
