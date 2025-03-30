@@ -19,7 +19,6 @@ class RedissonCoreTest {
     void list() {
 
         RList<String> helloList = redissonClient.getList("Hello");
-
         helloList.add("A");
         helloList.add("B");
         helloList.add("C");
